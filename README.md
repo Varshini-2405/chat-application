@@ -13,15 +13,6 @@ This is a real-time, multi-client chat application built using **Python Sockets*
 
 ## System Architecture
 The application follows a star topology where all clients communicate through a central server.
-```mermaid
-graph LR
-    C1[Client 1] <--> S((Server))
-    C2[Client 2] <--> S
-    C3[Client 3] <--> S
-    S -- Broadcast --> C1
-    S -- Broadcast --> C2
-    S -- Broadcast --> C3
-```
 
 - **Clients:** Send messages to the server and receive broadcasted messages.
 - **Server:** Manages connections, receives messages from one client, and forwards them to all others.
