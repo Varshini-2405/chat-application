@@ -65,4 +65,4 @@ streamlit run streamlit_app.py
 - **TCP (Transmission Control Protocol):** Ensures reliable, ordered delivery of messages.
 - **Port Binding:** The server biological "listens" on a specific port (5000) for incoming traffic.
 - **Threaded Handling:** Each client connection is handled by a separate thread on the server, ensuring no single user blocks the entire system.
-# chat-application
+
