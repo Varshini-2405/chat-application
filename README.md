@@ -2,6 +2,8 @@
 
 ## Project Overview
 This is a real-time, multi-client chat application built using **Python Sockets** and **Multithreading**. It follows a **Client-Server architecture** where a central server manages multiple clients, allowing them to communicate in a shared chat room.
+https://chat--application.streamlit.app/
+
 
 ## Technologies Used
 - **Language:** Python 3
